@@ -1,0 +1,9 @@
+amount=int(input("Enter amount"))
+inr100=amount//100
+amount=amount-inr100*100
+inr50=amount//50
+amount=amount-inr50*50
+inr10=amount//10
+print("100 * ",inr100,"=",100*inr100)
+print("50 * ",inr50,"=",50*inr50)
+print("10 * ",inr10,"=",10*inr10)

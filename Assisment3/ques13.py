@@ -1,0 +1,5 @@
+p,r,t=map(float,input("Enter principal rate & time").split())
+amount=int(p*(1+r/100)**t)
+ci = int(amount-p)
+print("Amount is",amount)
+print("CI is",ci)
